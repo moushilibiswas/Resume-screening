@@ -64,5 +64,5 @@ Invalid File: Not a CV
 - Multi-language resume support
 
 👤 Author
-Mpushili Biswas
-Resume Screening System using Machine Learning
+Moushili Biswas
+- Resume Screening System using Machine Learning
