@@ -46,22 +46,22 @@ Predicted Category: Data Science
 Invalid File: Not a CV
 
 📌 Important Notes
-Ensure clf.pkl and tfidf.pkl are present in the root directory.
+- Ensure clf.pkl and tfidf.pkl are present in the root directory.
 
-First-time execution downloads NLTK datasets.
+- First-time execution downloads NLTK datasets.
 
-Language validation helps filter fake or invalid resumes.
+- Language validation helps filter fake or invalid resumes.
 
 🚀 Future Enhancements
-Resume ranking system
+- Resume ranking system
 
-Skill extraction
+- Skill extraction
 
-Recruiter dashboard
+- Recruiter dashboard
 
-Database integration
+- Database integration
 
-Multi-language resume support
+- Multi-language resume support
 
 👤 Author
 Mpushili Biswas
