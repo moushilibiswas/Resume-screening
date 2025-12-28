@@ -25,18 +25,21 @@
 
 ## ▶️ Installation & Usage
 
-### 1️⃣ Clone the Repository
+## 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/resume-screening-app.git
 cd resume-screening-app
-2️⃣ Install Dependencies
+```
+## 2️⃣ Install Dependencies
 bash
-Copy code
+```
 pip install streamlit nltk scikit-learn PyPDF2 langdetect googletrans==4.0.0-rc1
+```
 3️⃣ Run the Application
-bash
-Copy code
+```
 streamlit run login.py
+```
+
 📊 Sample Output
 Predicted Category: Data Science
 
