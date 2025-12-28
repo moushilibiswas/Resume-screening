@@ -1,90 +1,65 @@
 # Resume-screening
-File Description
 
-login.py
-Acts as the main dashboard (CV Pro).
+## 🧠 Machine Learning Workflow
 
-Sidebar navigation (Home, Resume Builder, Resume Screening)
+1. Resume upload (PDF/TXT)
+2. Text extraction
+3. Resume cleaning using Regex & NLP
+4. Feature extraction using TF-IDF
+5. Resume classification using trained ML model
+6. Job role prediction
 
-Chatbot-style interaction on the Home page
+---
 
-Launches the resume screening app
+## 🛠️ Tech Stack
 
-main.py
-Core resume screening application.
+- Python
+- Streamlit
+- Scikit-learn
+- NLTK
+- PyPDF2
+- LangDetect
+- Pickle
 
-Handles resume upload
+---
 
-Extracts text from PDFs
+## ▶️ Installation & Usage
 
-Detects language and validates CV
-
-Applies TF-IDF + ML classifier
-
-Predicts job category
-
-Resume_Screening_with_Python.ipynb
-Jupyter Notebook used for:
-
-Data preprocessing
-
-Model training
-
-Feature extraction
-
-Experimentation and evaluation
-
-clf.pkl
-Trained classification model (pickle file)
-
-tfidf.pkl
-Trained TF-IDF vectorizer (pickle file)
-
-🧠 Machine Learning Pipeline
-
-Resume text extraction (PDF/TXT)
-
-Text cleaning (regex-based)
-
-TF-IDF vectorization
-
-Classification using a trained ML model
-
-Mapping prediction IDs to job roles
-
-🛠️ Tech Stack
-
-Python
-
-Streamlit
-
-Scikit-learn
-
-NLTK
-
-PyPDF2
-
-LangDetect
-
-Pickle
-
-▶️ How to Run the Project
-1. Install Dependencies
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/resume-screening-app.git
+cd resume-screening-app
+2️⃣ Install Dependencies
+bash
+Copy code
 pip install streamlit nltk scikit-learn PyPDF2 langdetect googletrans==4.0.0-rc1
-
-2. Run the Application
+3️⃣ Run the Application
+bash
+Copy code
 streamlit run login.py
-
-📌 Notes
-
-Ensure clf.pkl and tfidf.pkl are present in the root directory.
-
-Internet connection is required on first run for NLTK downloads.
-
-Resume language validation helps filter fake or invalid files.
-
-📊 Output Example
-
+📊 Sample Output
 Predicted Category: Data Science
 
 Invalid File: Not a CV
+
+📌 Important Notes
+Ensure clf.pkl and tfidf.pkl are present in the root directory.
+
+First-time execution downloads NLTK datasets.
+
+Language validation helps filter fake or invalid resumes.
+
+🚀 Future Enhancements
+Resume ranking system
+
+Skill extraction
+
+Recruiter dashboard
+
+Database integration
+
+Multi-language resume support
+
+👤 Author
+Mpushili Biswas
+Resume Screening System using Machine Learning
